@@ -81,6 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (key === 'del'){
                 handleDeleteLetter();
+                return;
             }
             updateGuessedWords(key);
         };
