@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     createSquares();
-    let wordList = ['Ekans', 'Arbok', 'Zubat', 'Gloom', 'Paras', 'Golem', 'Doduo', 'Hypno', 'Ditto', 'Eevee', 'Pichu', 'Aipom', 'Yanma', 'Unown', 'Magby', 'Entei', 'Lugia', 'Ho-oh', 'Lotad', 'Ralts', 'Minun', 'Numel', 'Absol', 'Bagon', 'Shinx', 'Luxio', 'Budew', 'Burmy', 'Gible', 'Riolu', 'Rotom', 'Azelf', 'Snivy', 'Tepig', 'Munna', 'Throh', 'Zorua', 'Klink', 'Klang', 'Deino', 'Inkay', 'Goomy', 'Hoopa', 'Toxel', 'Kubfu'];
-    let guessedWords = [[]];
+    let wordList = ['ekans', 'arbok', 'zubat', 'gloom', 'paras', 'golem', 'doduo', 'hypno', 'ditto', 'eevee', 'pichu', 'aipom', 'yanma', 'unown', 'magby', 'entei', 'lugia', 'ho-oh', 'lotad', 'ralts', 'minun', 'numel', 'absol', 'bagon', 'shinx', 'luxio', 'budew', 'burmy', 'gible', 'riolu', 'rotom', 'azelf', 'snivy', 'tepig', 'munna', 'throh', 'zorua', 'klink', 'klang', 'deino', 'inkay', 'goomy', 'hoopa', 'toxel', 'kubfu'];    let guessedWords = [[]];
     let availableSpace = 1;
     let word = wordList[Math.floor(Math.random()*wordList.length)];
     let guessedWordCount = 0;
