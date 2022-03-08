@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
             currentWordArr.push(letter)
             const availableSpaceEl = document.getElementById(String(availableSpace))
             availableSpace = availableSpace + 1; 
-            availableSpaceEl.textContent = letter;
+            availableSpaceEl.textContent = letter.toUpperCase();
         }
     }
 
